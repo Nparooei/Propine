@@ -4,9 +4,19 @@
   "description": "_We're looking at your programming ability. It must not only work, it should be maintainable._",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc && node dist/index.js",
+    "compile:dev": "tsc --watch",
+    "test": "jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "jest": "^29.0.3",
+    "moment": "^2.29.4",
+    "node-fetch": "^3.2.10"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.2"
+  }
 }

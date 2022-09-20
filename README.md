@@ -1,3 +1,26 @@
+##
+
+I have created the solution in typescript and tried to make it a modular design .
+
+it has diffrent modules 
+
+  constants and interfaces ---> types & constants declaration
+  fileProcessor ---> import file and convert it to a json structure
+  dataProcessor ---> get the data and calculate the result
+  networkService ---> to call the Api
+  logger --> to log in case of errors
+
+since the file size was around 32mb I read it and compile the output in one go , if the file is large (500mb<) i prefer to use node streaming API.
+
+the dvelopment tools that I used are --> es-lint ,Prettier
+
+I used yarn , to run the app you can
+
+yarn install
+yarn run Start
+
+
+
 ## Question 1 - Programming
 _We're looking at your programming ability. It must not only work, it should be maintainable._
 
