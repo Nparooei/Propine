@@ -1,8 +1,8 @@
 ##
 
-I have created the solution in typescript and tried to make it a modular design .
+I have created the solution in typescript and tried to make it a modular design.
 
-it has diffrent modules 
+it has different modules 
 
   **constants and interfaces ---> types & constants declaration**
   
@@ -10,19 +10,21 @@ it has diffrent modules
 
   **dataProcessor ---> get the data and calculate the result**
 
-  **networkService ---> to call the Api**
+  **networkService ---> to call the API**
 
   **logger --> to log in case of errors**
-  
 
-since the file size was around 32mb I read it and compile the output in one go , if the file is large (500mb<) i prefer to use node streaming API.
 
-the dvelopment tools that I used are --> es-lint ,Prettier
+Since the file size was around 32MB I read it and compile the output in one go, if the file is large (500mb<) I prefer to use node streaming API.
 
-I used yarn , to run the app you can
+the development tools that I used are --> es-lint, Prettier
 
-yarn install
-yarn run Start
+I used yarn, to run the app you can :
+
+
+**yarn install**
+
+**yarn run Start**
 
 
 
